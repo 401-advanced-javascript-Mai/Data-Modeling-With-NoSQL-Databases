@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 'use strict' ;
 
 const mongoose = require('mongoose');
 
 const Categories = require('./modules/categoriesModel.js');
 const Products = require('./modules/productModel.js');
-const pro = require('./schema/product-schema')
+const pro = require('./schema/product-schema');
 
 const MONGOOSE_URI = 'mongodb://localhost:27017/categoryproductdb';
 
